@@ -1,0 +1,20 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android2="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item
+        android2:id="@+id/action_about"
+        android2:title="About">
+    </item>
+    <item
+        android2:id="@+id/action_rateapp"
+        android2:title="Rate app">
+    </item>
+    <item
+        android2:icon="@drawable/ic_share_white_18dp"
+        android2:id="@+id/menu_item_share"
+        android:showAsAction="ifRoom"
+        android2:actionProviderClass=
+            "android.widget.ShareActionProvider"
+        android2:title="Share"
+        tools:showAsAction="always" />
+</menu>
